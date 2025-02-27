@@ -15,7 +15,7 @@ import sys
 if hasattr(sys, '_MEIPASS'):
     os.environ['PYTHONPATH'] = sys._MEIPASS
 
-pdfmetrics.registerFont(TTFont('Cubby', 'Cubby.ttf'))
+pdfmetrics.registerFont(TTFont('Cubby', 'cubby.ttf'))
 
 CAFE_NAMES = ['Kopigoyang', 'intinya', 'ngopi ga?', 'kopisore', 'HAUS']
 CASHIERS = ['Mikael', 'miguel', 'Albert', 'Sanchez', 'Dewi']
